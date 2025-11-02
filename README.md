@@ -1,3 +1,4 @@
+
 # 🚗 Car Resale Platform
 
 A backend web application built using **Java**, **Spring Boot**, and **MySQL** for managing the buying and selling of used cars.  
@@ -12,7 +13,7 @@ The application follows RESTful architecture, uses **Spring Security with JWT**,
 - 🚀 [How to Run](#-how-to-run)
 - 📘 [API Documentation](#-api-documentation)
 - 🧩 [Project Structure](#-project-structure)
-- 🧠 [Further Enhancements](#-Further-enhancements)
+- 🧠 [Further Enhancements](#-further-enhancements)
 
 ---
 
@@ -22,29 +23,29 @@ The **Car Resale Platform** enables users to buy and sell used cars efficiently.
 It supports multiple roles such as users, agents, and managers, allowing:
 - **Users** to sign up, browse vehicles, and schedule test drives.  
 - **Managers/Agents** to manage listings, verify details, and handle bookings.  
-- **Admins** to maintain system integrity and user control.
+- **Admins** to maintain system integrity and manage overall operations.
 
-The project demonstrates real-world backend design skills, including:
-- REST API design and development with **Spring Boot**
+The project demonstrates strong backend development skills, including:
+- RESTful API design using **Spring Boot**
 - Authentication and authorization with **Spring Security (JWT)**
-- Database design and ORM with **Hibernate / Spring Data JPA**
-- File storage integration with **AWS S3**
-- CI/CD, containerization, and cloud deployment awareness
+- Database management with **Hibernate / Spring Data JPA**
+- File storage integration using **AWS S3**
+- Containerization with **Docker** and deployment on **AWS EC2**
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Language: Java 17  
-- Framework: Spring Boot  
-- ORM: Hibernate / Spring Data JPA  
-- Database: MySQL  
-- Authentication: Spring Security with JWT  
-- DevOps Tools: Docker, AWS (S3), Linux  
-- Build Tool: Maven
-- IDE: Intellij IDEA
-- Depolyment: AWS EC2
-
+| Category | Technologies |
+|-----------|--------------|
+| **Language** | Java 17 |
+| **Frameworks** | Spring Boot, Spring Data JPA, Hibernate |
+| **Database** | MySQL |
+| **Authentication** | Spring Security, JWT |
+| **Tools & Build** | Maven, Postman, Git, Jenkins |
+| **Cloud & Deployment** | AWS EC2, AWS S3, Docker, Linux |
+| **Logging & Testing** | Log4j, JUnit |
+| **Version Control** | Git & GitHub |
 
 ---
 
@@ -56,7 +57,7 @@ git clone https://github.com/Adhi0068/Car-Resale-Platform.git
 cd Car-Resale-Platform
 ````
 
-### 2️⃣ Configure Database
+### 2️⃣ Configure the Database
 
 Edit your `application.properties` or `application.yml` file:
 
@@ -114,7 +115,7 @@ Car-Resale-Platform/
 │   │       ├── application.yml     # App Configurations
 │   │       ├── static/            
 │   │       └── templates/          
-│   └── test/                     
+│   └── test/                       
 └── pom.xml                         # Maven Dependencies
 ```
 
@@ -122,8 +123,9 @@ Car-Resale-Platform/
 
 ## 🧠 Further Enhancements
 
-* 🔄 **Microservices** architecture for modular scalability
-* 📨 Notification service using **Kafka** or **RabbitMQ**
-* ⚙️ Set up **CI/CD pipelines** with GitHub Actions
+* 🔄 Refactor project into **microservices** for scalability
+* 💳 Integrate **payment gateway** for transaction support
+* ⚙️ Automate build and deployment with **GitHub Actions CI/CD**
+* 📦 Implement **caching** (Redis) for faster API response times
 
 ---
