@@ -8,7 +8,7 @@ The application follows RESTful architecture, uses **Spring Security with JWT**,
 
 ## 📑 Quick Links
 - 🧱 [Project Overview](#-project-overview)
-- ⚙️ [Tech Stack](#-Tech-Stack)
+- ⚙️ [Tech Stack](#-tech-stack)
 - 🚀 [How to Run](#-how-to-run)
 - 📘 [API Documentation](#-api-documentation)
 - 🧩 [Project Structure](#-project-structure)
