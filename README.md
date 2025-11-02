@@ -25,21 +25,3 @@ The platform provides secure user authentication, vehicle listings, booking mana
 ✅ Role-based access control (Admin / User)  
 ✅ API documentation with Swagger/Postman
 ✅ Containerized with Docker for easy deployment  
-
----
-
-🧩 Project Structure
-Car-Resale-Platform/
-├── src/
-│ ├── main/
-│ │ ├── java/com/example/
-│ │ │ ├── controller/ # REST controllers
-│ │ │ ├── entity/ # JPA entities
-│ │ │ ├── repository/ # Data access layer
-│ │ │ ├── service/ # Business logic
-│ │ │ └── config/ # Security & AWS configs
-│ │ └── resources/
-│ │ ├── application.yml # App configuration
-│ │ └── static/templates/
-│ └── test/
-└── pom.xml # Maven dependencies
