@@ -1,11 +1,11 @@
-*🚗 Car Resale Platform
+# 🚗 Car Resale Platform
 
 A backend web application built using Java, Spring Boot, and MySQL for managing the buying and selling of used cars.  
 The platform provides secure user authentication, vehicle listings, booking management, and integration with AWS for storage.
 
 ---
 
-🧱 Tech Stack
+## 🧱 Tech Stack
 - Language: Java 17  
 - Framework: Spring Boot  
 - ORM: Hibernate / Spring Data JPA  
@@ -18,7 +18,7 @@ The platform provides secure user authentication, vehicle listings, booking mana
 
 ---
 
-⚙️ Features
+## ⚙️ Features
 
 ✅ User registration and authentication (JWT-based)  
 ✅ Add, update, and delete car listings  
