@@ -19,6 +19,7 @@ The platform provides secure user authentication, vehicle listings, booking mana
 ---
 
 ⚙️ Features
+
 ✅ User registration and authentication (JWT-based)  
 ✅ Add, update, and delete car listings  
 ✅ Upload vehicle images to AWS S3  
@@ -26,3 +27,5 @@ The platform provides secure user authentication, vehicle listings, booking mana
 ✅ Role-based access control (Admin / User)  
 ✅ API documentation with Swagger/Postman
 ✅ Containerized with Docker for easy deployment  
+
+
