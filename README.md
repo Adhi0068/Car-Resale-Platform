@@ -47,6 +47,8 @@ The platform provides secure user authentication, vehicle listings, booking mana
 
 
 
+
+````markdown
 # 🚗 Car Resale Platform
 
 A backend web application built using **Java**, **Spring Boot**, and **MySQL** for managing the buying and selling of used cars.  
@@ -61,6 +63,8 @@ The application follows RESTful architecture, uses **Spring Security with JWT**,
 - 🚀 [How to Run](#-how-to-run)
 - 📘 [API Documentation](#-api-documentation)
 - 🧠 [Future Enhancements](#-future-enhancements)
+- 👨‍💻 [Author](#-author)
+- 🏷️ [License](#-license)
 
 ---
 
@@ -78,6 +82,19 @@ The project demonstrates real-world backend design skills, including:
 - Database design and ORM with **Hibernate / Spring Data JPA**
 - File storage integration with **AWS S3**
 - CI/CD, containerization, and cloud deployment awareness
+
+---
+
+## ⚙️ Tech Stack
+- Language: Java 17  
+- Framework: Spring Boot  
+- ORM: Hibernate / Spring Data JPA  
+- Database: MySQL  
+- Authentication: Spring Security with JWT  
+- DevOps Tools: Docker, AWS (S3), Linux  
+- Build Tool: Maven
+- IDE: Intellij IDEA
+- Depolyment: AWS EC2
 
 
 ---
@@ -101,6 +118,12 @@ spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 ```
 
+### 3️⃣ Build and Run the Application
+
+```bash
+mvn clean install
+mvn spring-boot:run
+```
 
 ### 4️⃣ Access Locally
 
@@ -124,3 +147,34 @@ Explore the complete API reference and usage guide in the Postman documentation:
 * 🧑‍💼 **Agent APIs** – Assign and manage agents for customer bookings
 * 📊 **Utility APIs** – Upload Excel data, search by PIN code, etc.
 
+---
+
+## 🧩 Project Structure
+
+```
+Car-Resale-Platform/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/spinny/
+│   │   │   ├── controller/         # REST Controllers
+│   │   │   ├── entity/             # JPA Entities
+│   │   │   ├── repository/         # Data Access Layer
+│   │   │   ├── service/            # Business Logic
+│   │   │   └── config/             # Security & AWS Configurations
+│   │   └── resources/
+│   │       ├── application.yml     # App Configurations
+│   │       ├── static/            
+│   │       └── templates/          
+│   └── test/                     
+└── pom.xml                         # Maven Dependencies
+```
+
+---
+
+## 🧠 Further Enhancements
+
+* 🔄 **Microservices** architecture for modular scalability
+* 📨 Notification service using **Kafka** or **RabbitMQ**
+* ⚙️ Set up **CI/CD pipelines** with GitHub Actions
+
+---
