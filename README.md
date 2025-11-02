@@ -48,7 +48,6 @@ The platform provides secure user authentication, vehicle listings, booking mana
 
 
 
-````markdown
 # 🚗 Car Resale Platform
 
 A backend web application built using **Java**, **Spring Boot**, and **MySQL** for managing the buying and selling of used cars.  
@@ -63,8 +62,6 @@ The application follows RESTful architecture, uses **Spring Security with JWT**,
 - 🚀 [How to Run](#-how-to-run)
 - 📘 [API Documentation](#-api-documentation)
 - 🧠 [Future Enhancements](#-future-enhancements)
-- 👨‍💻 [Author](#-author)
-- 🏷️ [License](#-license)
 
 ---
 
