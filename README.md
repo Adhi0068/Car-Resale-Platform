@@ -11,9 +11,10 @@ The platform provides secure user authentication, vehicle listings, booking mana
 - ORM: Hibernate / Spring Data JPA  
 - Database: MySQL  
 - Authentication: Spring Security with JWT  
-- DevOps Tools: Docker, AWS (EC2, S3), Linux  
+- DevOps Tools: Docker, AWS (S3), Linux  
 - Build Tool: Maven
 - IDE: Intellij IDEA
+- Depolyment: AWS EC2
 
 ---
 
