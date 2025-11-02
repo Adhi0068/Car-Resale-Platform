@@ -1,4 +1,4 @@
-*🚗 Car Resale Platform*
+*🚗 Car Resale Platform
 
 A backend web application built using Java, Spring Boot, and MySQL for managing the buying and selling of used cars.  
 The platform provides secure user authentication, vehicle listings, booking management, and integration with AWS for storage.
