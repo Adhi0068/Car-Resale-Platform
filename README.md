@@ -34,6 +34,7 @@ The project demonstrates real-world backend design skills, including:
 ---
 
 ## ⚙️ Tech Stack
+
 - Language: Java 17  
 - Framework: Spring Boot  
 - ORM: Hibernate / Spring Data JPA  
